@@ -1,0 +1,130 @@
+span.welcome-text {
+    margin-top: 14px;
+    background: none;
+    border: 0;
+    display: block;
+    color: #fff;
+}
+
+.navbar .sidebar-collapse{ left: 0; }
+
+.navbar-account ul li:nth-child(2) span
+{   margin-top: 14px;
+    display: block;
+    margin-left: 15px;
+}
+
+.navbar-account li a {
+    color: #fff;
+}
+
+li.order-item .item-booker h2 {
+    font-size: 12px;
+    padding: 0 12px 0px 0px;
+    margin: auto;
+}
+
+.inst .panel-body{
+	padding: 15px;
+    max-height: 426px;
+    overflow: auto;
+}
+
+.dt-buttons .dt-button span {
+    color: #333;
+}
+.dt-buttons .dt-button {
+    padding: 9px 12px;
+    background: #f7f7f7;
+    display: -webkit-inline-box;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin: 0 7px 7px 3px;
+}
+
+.crtadd td h2, .crtadd td h1, .crtadd td h3, .crtadd td h4 {
+font-size: 14px;
+}
+
+.employees_num a {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.employees_num {
+    width: 100%;
+    display: inline-block;
+    background: #2dc3e8;
+    margin: 3px 4px;
+    padding: 8px 20px;
+    border: 1px solid #2dc3e8;
+    border-radius: 25px;
+}
+
+.server_time a {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.server_time {
+    width: 99%;
+    display: inline-block;
+    background: #2dc3e8;
+    margin: 3px 4px;
+    padding: 0px 20px;
+    border: 1px solid #2dc3e8;
+    border-radius: 0px;
+    position: relative;
+}
+
+/*.server_time_rm{
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+*/
+
+.widget-body .server_time {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.widget-body .server_time > a {
+    width: -webkit-calc(100% - 100px);
+    width: -moz-calc(100% - 100px);
+    width: calc(100% - 100px);
+    display: inline-flex;
+    box-sizing: border-box;
+    float: left;
+}
+.widget-body .server_time > .server_time_rm {
+    width: 100px;
+    text-align: right;
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+div#editable_paginate {
+    margin-top: 18px;
+    /*float: right;*/
+}
+
+div#editable_filter {
+    float: right;
+}
+
+div.dt-buttons {
+    float: unset !important;
+    /* float: left; */
+}
+
+div#editable_length {
+    float: left;
+}
+
+.col-xs-6 #editable_paginate {
+    float: right;
+}
